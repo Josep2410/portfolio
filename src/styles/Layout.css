@@ -1,0 +1,57 @@
+.container{
+  height : 100vh;
+  min-width: 350px;
+  display : flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin : 0 auto;
+}
+
+header{
+  height : 8%;
+  min-width: 90%;
+  display : flex;
+  justify-content: space-between; 
+  padding : 10px 40px 0;
+}
+
+section.logoContainer{
+   width: 20%;
+   display : flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.iconSVG{
+  width: 50px;
+  height : 50px;
+  color : var(--neon)
+}
+
+section.logoContainer a {
+  position: absolute;
+  color : var(--neon)
+}
+
+nav{
+  min-width: 400px;
+  width: 40%;
+}
+
+nav ol{
+  height : 100%;
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+  color : var(--neon)
+}
+
+main{
+  flex: 1;
+  padding : 15px;
+  min-width: 350px;
+  width: 65%;
+  margin : 0 auto;
+  
+}

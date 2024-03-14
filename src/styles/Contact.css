@@ -1,0 +1,20 @@
+.form-section{
+  min-height: 100%;
+  text-align: center;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact-form{
+  text-align: center;
+  display : flex;
+  flex-direction: column;
+  border : 1px solid greenyellow;
+  min-height: 400px;
+  margin-bottom : 60px;
+}
+
+label{
+  color : var(--h2)
+}
+
