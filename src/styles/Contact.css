@@ -35,7 +35,7 @@ input , textarea{
 }
 
 label{
-  color : var(--h2);
+  color : var(--neon);
   font-size: 1.1rem;
 }
 

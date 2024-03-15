@@ -10,7 +10,7 @@ export default function Layout() {
   return (
     <div className="container">
       {windowSize.width >= 600 && <Header />}
-      <main>
+      <main className='outer-main'>
         <Outlet />
       </main>
     </div>

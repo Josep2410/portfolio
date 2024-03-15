@@ -47,11 +47,11 @@ nav ol{
   color : var(--neon)
 }
 
-main{
+main.outer-main{
   flex: 1;
   padding : 15px;
   min-width: 350px;
   width: 65%;
   margin : 0 auto;
-  
+
 }
