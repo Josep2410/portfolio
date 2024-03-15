@@ -1,20 +1,50 @@
 .form-section{
   min-height: 100%;
+  min-width: 350px;
+  width: 50%;
+  margin : 0 auto;
   text-align: center;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+ 
+}
+
+.getInTouch{
+  position : absolute;
+  top : 25px;
+  left : 0;
+  right : 0;
+}
+.contact-form{
+  text-align: left;
+  min-height: 500px;
   display : flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
+
 }
-.contact-form{
-  text-align: center;
-  display : flex;
-  flex-direction: column;
-  border : 1px solid greenyellow;
-  min-height: 400px;
-  margin-bottom : 60px;
+
+input , textarea{
+  padding : 8px 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(255, 255, 255);
 }
 
 label{
-  color : var(--h2)
+  color : var(--h2);
+  font-size: 1.1rem;
 }
+
+.submitBtn{
+  margin-top : 10px;
+  min-width: 325px;
+  width: 75%;
+  padding : 8px;
+  margin : 10px auto 0;
+}
+
 
