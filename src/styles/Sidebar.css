@@ -1,0 +1,52 @@
+.nav-container{
+  position : fixed;
+  right : 0px;
+  top : 0px;
+  z-index: 10;
+}
+
+.menu{
+  transition : 2s;
+  position : absolute;
+  color : var(--h1);
+}
+
+.icon{
+  width: 50px;
+  height : 50px;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+.nav-menu{
+  width: 100vw; /* change to 100% for app */
+  background-color: teal;
+  display : flex;
+  flex-direction: column;
+  position : absolute;
+  transition : 2s;
+}
+
+.close{
+  align-self: flex-end;
+}
+
+.nav-menu a {
+  font-size : 2rem;
+  padding : 15px 10px;
+  display : flex;
+  justify-content: center;
+  border-top: 2px solid black;
+}
+
+.offscreen{
+  /* transform: translateX(100dvw); */
+  right : -100dvw;
+}
+
+.onscreen{
+  /* transform: translateX(-100dvw); */
+  right : 0px;
+}
