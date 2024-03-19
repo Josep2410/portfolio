@@ -47,4 +47,11 @@ label{
   margin : 10px auto 0;
 }
 
+.submitBtn:disabled{
+  color:rgb(153, 153, 153);
+  background-color: #363738;
+  cursor: not-allowed;
+  border : none;
+}
+
 
