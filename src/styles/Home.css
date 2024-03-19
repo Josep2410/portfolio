@@ -24,9 +24,17 @@ section.introduction{
 }
 
 .checkOutMore{
-  text-align: left;
-  width : 20ch;
+  width : 100%;
   padding : 15px;
+  border-radius: 20px;
+ 
 }
 
 
+@media screen and (min-width: 480px){
+  .checkOutMore{
+    text-align: left;
+    width : 20ch;
+    padding : 15px;
+  }
+}
