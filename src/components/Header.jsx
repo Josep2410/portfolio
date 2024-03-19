@@ -7,9 +7,9 @@ export default function Header() {
     <header>
       <section className='logoContainer'>
         <LuHexagon className='iconSVG' />
-     <Link to="/">JM</Link>
+        <Link to="/">JM</Link>
       </section>
-      <nav>
+      <nav className='biggerScreen'>
         <ol>
           <li><Link to="about">About</Link></li>
           <li><Link to="projects">Projects</Link></li>
