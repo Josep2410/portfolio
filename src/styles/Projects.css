@@ -21,9 +21,6 @@
   transition : .5s;
 }
 
-.individual-project{
-
-}
 
 .individual-project:hover{
   transform: scale(1.1);

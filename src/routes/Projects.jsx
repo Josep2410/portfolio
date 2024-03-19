@@ -4,13 +4,14 @@ import '../styles/Projects.css'
 import data from '../data/data.js'
 
 export default function Projects() {
-  console.log(data)
+ 
+  const displayProjects = data.map(project => <SingleProject key={project.title} project={project}/>)
+
   return (
     <div className='projects-section'>
       <h2>Projects</h2>
       <main className='projects-container'>
-      {data.map(project => <SingleProject key={project.title} title={project.title} img={project.img}/>)}
-        
+      {displayProjects}
       </main>
     </div>
   )
