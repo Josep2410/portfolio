@@ -1,0 +1,12 @@
+
+.about_section h2{
+  margin : 50px 0;
+}
+
+
+@media screen and (min-width: 600px){
+  .about_section h2{
+    margin : 0 0 50px;
+  }
+  
+}
