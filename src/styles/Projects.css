@@ -1,10 +1,10 @@
 .projects-section{
-  /* border : 1px solid green; */
+ margin-top: 50px;
 }
 
 .projects-container{
-  /* border : 1px solid blue; */
   margin : 5% auto;
+  /* min-height: min-content; */
   min-width: 350px;
   row-gap:30px;
   column-gap:30px;
@@ -43,4 +43,10 @@
   bottom : 30px;
   font-weight: 600;
   font-size : 1.5rem;
+}
+
+@media screen and (min-width: 600px){
+  .projects-section{
+    margin-top: 0px;
+   }
 }
