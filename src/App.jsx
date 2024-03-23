@@ -6,6 +6,7 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Projects from './routes/Projects'
 import Contact from './routes/Contact'
+import Project from './routes/Project'
 import './styles/App.css'
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
         <Route index element={<Home />}/>
         <Route path="about" element={<About />}/>
         <Route path="projects" element={<Projects />}/>
+        <Route path="projects/:id" element={<Project />} />
         <Route path="contact" element={<Contact />}/>
+
       </Route>
     )
   )
