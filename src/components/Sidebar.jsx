@@ -16,12 +16,12 @@ export default function Exp() {
   return (    
     <nav className='nav-container'> {/* will possibly need to change nav tag to section depending on existing code */}
       <IoIosMenu 
-        className={`icon menu ${!display ? "onscreen" : "offscreen"} `} 
+        className={`menu-icon ${!display ? "onscreen" : "offscreen"} `} 
         onClick={toggleDisplay}
       />
       <section className={`nav-menu ${display ? "onscreen" : "offscreen"} ` }>
       <IoMdClose 
-        className='icon close' 
+        className='close-icon ' 
         onClick={toggleDisplay}
       />
         <Link to="/" onClick={toggleDisplay}>Home</Link>

@@ -5,18 +5,18 @@
   z-index: 10;
 }
 
-.menu{
+.menu-icon{
   transition : 2s;
   position : absolute;
   color : var(--h1);
 }
 
-.icon{
+.menu-icon , .close-icon{
   width: 50px;
-  height : 50px;
+height : 50px;
 }
 
-.icon:hover{
+.close-icon:hover , .menu-icon:hover{
   cursor: pointer;
 }
 
@@ -29,7 +29,7 @@
   transition : 2s;
 }
 
-.close{
+.close-icon{
   align-self: flex-end;
 }
 
