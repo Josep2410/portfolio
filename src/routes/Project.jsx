@@ -14,8 +14,9 @@ export default function Project() {
       <main className='project-container'>
         <section className='img-container'>
           <img src={project?.img} alt={project?.alt} />
+        
         </section>
-        <p>
+        <p className='description'>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate alias ratione sed laborum commodi amet fugit sit. Nesciunt, architecto velit ad est excepturi consequuntur quos a in quod illo sed saepe deleniti, vel nobis aut. Consectetur ab reprehenderit amet dolores eveniet.
         </p>
         <section className='btns-container'>

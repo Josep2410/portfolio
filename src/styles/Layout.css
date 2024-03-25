@@ -1,5 +1,4 @@
 .container{
-  /* height : 100vh; */
   max-height: fit-content;
   min-width: 350px;
   display : flex;
@@ -10,7 +9,6 @@
 
 header{
   min-height: min-content;
-  /* height : 8%; */
   min-width: 90%;
   display : flex;
   justify-content: space-between; 
@@ -50,12 +48,11 @@ nav.biggerScreen ol{
 }
 
 main.outer-main{
- /*  flex: 1; */
- /*  min-height: min-content; */
   min-height: 100vh;
-  /* height : auto; */
   min-width: 350px;
-  width: 60%;
+  width: 85%;
+  max-width: 1000px ;
   padding : 10px;
   margin : 0 auto;
 }
+

@@ -37,10 +37,11 @@
 }
 
 .appear {
-  max-height: 400px;
+  max-height: 600px;
   opacity: 1;
 }
 
 .content{
   padding : 15px;
+  line-height: 1.9rem;
 }
